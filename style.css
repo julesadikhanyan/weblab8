@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #0C1212;
+    font-size: 14px;
+
+    position: relative;
+
+}
+
+.container-image {
+    height: 100vh;
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+
+    float: right;
+
+    position: relative;
+}
+
+.image {
+    flex: 1;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: flex 1s ease;
+}
+
+.image:hover {
+    flex: 4;
+}
+
+.image-1 {
+    background-image: url("img/main-1.svg");
+}
+
+.image-2 {
+    background-image: url("img/main-2.svg");
+}
+
+.image-3 {
+    background-image: url("img/main-3.svg");
+}
+
+.image-4 {
+    background-image: url("img/main-4.svg");
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+
+    position: fixed;
+    background: white;
+
+    z-index: 1;
+}
+
+.logo {
+    text-transform: uppercase;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    height: 50px;
+    padding: 20px 0 0 50px;
+}
+
+.logo p {
+    color: #0C1212;
+}
+
+.menu {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+
+    cursor: pointer;
+
+    color: #0C1212;
+}
+
+a:hover {
+    color: #6D0F16;
+
+    text-decoration: underline;
+}
+
+.menu .menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+
+    position: relative;
+}
+
+.menu-list>li:hover .sub-menu-list {
+    display: block;
+}
+
+.sub-menu-list {
+    display: none;
+
+    position: absolute;
+
+    left: 0;
+    top: 7px;
+
+    padding-top: 13px;
+
+    min-width: 300px;
+
+    z-index: 1;
+}
+
+.sub-menu-list li, .sub-sub-menu-list li {
+    background-color: #6D0F16;
+
+    padding: 20px 10px 20px 10px;
+
+    border-bottom: 1px solid white;
+
+    opacity: 0.9;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 24px;
+
+    height: 300px;
+    width: 800px;
+
+    top: 50vh;
+    transform: translateY(-50%);
+
+    margin-left: 50px;
+
+    position: absolute;
+}
+
+.sub-menu-list li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.sub-menu-list a {
+    color: white;
+}
+
+.sub-menu-list>li:hover .sub-sub-menu-list {
+    display: block;
+}
+
+.sub-sub-menu-list {
+    display: none;
+
+    position: absolute;
+
+    left: 100%;
+
+    top: -1px;
+
+    min-width: 300px;
+
+    border: 1px solid white;
+}
+
+.stocks {
+    display: flex;
+    justify-content: space-between;
+
+    top: 70vh;
+
+    width: 50%;
+    height: 30vh;
+
+    /*margin-left: 50px;*/
+
+    position: absolute;
+
+    background: #6D0F16;
+
+}
+
+.stock-1, .stock-2 {
+    width: 30vw;
+    height: 30vh;
+
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    font-size: 36px;
+    font-weight: bold;
+
+    color: white;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    color: white;
+}
+
+.main-content {
+    top: 100vh;
+    width: 100%;
+
+    position: absolute;
+
+    /*left: 50vw;
+    transform: translateX(-50%);*/
+
+    box-sizing: border-box;
+
+    /*border: 1px solid blueviolet;*/
+
+}
+
+.main-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #6D0F16;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.new-deserts {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    box-sizing: border-box;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    /*border: 1px solid violet;*/
+}
+
+.chocolate-cake, .caramel-eclairs, .brownie {
+    width: 400px;
+
+    text-align: center;
+
+    color: white;
+
+    background: #6D0F16;
+
+    border: 1px solid #6D0F16;
+}
+
+.container-pastry-shop-image {
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    box-sizing: border-box;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    /*border: 1px solid #0C1212;*/
+}
+
+.container-pastry-shop-image img {
+    margin: 20px;
+    transition: 1s;
+}
+
+.container-pastry-shop-image img:hover {
+    transform: scale(1.1);
+}
+
+.img-line-1, .img-line-2, .img-line-3 {
+    display: flex;
+    justify-content: space-between;
+
+    /*border: 1px solid hotpink;*/
+}
+
+.review {
+    width: 80vw;
+    height: 200px;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    flex-direction: column;
+    justify-content: flex-start;
+
+    line-height: 150%;
+
+    margin-left: 10vw;
+    /*border: 1px solid navy;*/
+
+}
+
+.review p {
+    color: #0C1212;
+}
+
+.review time {
+    font-size: 12px;
+    color: gray;
+}
+
+.controller {
+    width: 300px;
+    height: 30px;
+
+    display: block;
+
+    background: #6D0F16;
+
+    position: absolute;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    font-size: 0;
+
+    /*border: 5px solid green;*/
+
+    box-sizing: border-box;
+}
+
+#line-1, #line-2, #line-3 {
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+
+    display: inline-flex;
+
+    width: 100px;
+    height: 30px;
+
+    /*border: 1px solid magenta;*/
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+}
+
+#active {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: #0C1212;
+}
+
+.container-for-slider {
+    width: 80vw;
+    height: 200px;
+
+    position: absolute;
+
+    display: flex;
+
+    overflow: hidden;
+
+    /*border: 1px solid violet;*/
+}
+
+#slider {
+    display: inline-flex;
+    transition: 0.5s;
+}
+
+.review-1 {
+    width: 80vw;
+    height: 200px;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.container-for-controller {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    height: 35px;
+
+    box-sizing: border-box;
+
+    /*border: 1px solid blueviolet;*/
+}
+
+.call-you {
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+
+    width: 100%;
+    height: 400px;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    /*margin-left: -5vw;*/
+
+    position: relative;
+}
+
+.call-you p {
+    color: #0C1212;
+
+    padding: 20px;
+
+    text-align: center;
+
+    /*border: 1px solid firebrick;*/
+}
+
+
+
+
+
+
+
+
+
+
