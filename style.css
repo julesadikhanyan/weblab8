@@ -41,19 +41,19 @@ body {
 }
 
 .image-1 {
-    background-image: url("img/main-1.svg");
+    background-image: url("img/main-1.png");
 }
 
 .image-2 {
-    background-image: url("img/main-2.svg");
+    background-image: url("img/main-2.png");
 }
 
 .image-3 {
-    background-image: url("img/main-3.svg");
+    background-image: url("img/main-3.png");
 }
 
 .image-4 {
-    background-image: url("img/main-4.svg");
+    background-image: url("img/main-4.png");
 }
 
 .navbar {
@@ -471,7 +471,7 @@ p {
 }
 
 .call-you {
-    background-image: url(img/back-big.svg);
+    background-image: url(img/back-big.png);
     background-size: 100%;
 
     width: 100%;
@@ -637,7 +637,7 @@ button {
 }
 
 .cakes-h {
-    background: url("img/back-page-2.svg");
+    background: url("img/back-page-2.png");
 
     width: 100%;
 
@@ -822,7 +822,7 @@ button {
 }
 
 #up-button {
-    background: url("img/up.svg") no-repeat top left;
+    background: url("img/up.png") no-repeat top left;
     height: 60px;
     width: 60px;
     bottom: 30px;
