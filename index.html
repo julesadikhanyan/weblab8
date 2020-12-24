@@ -20,6 +20,9 @@
     <nav class="menu">
         <ul class="menu-list">
             <li>
+                <a href="index.html">ГЛАВНАЯ</a>
+            </li>
+            <li>
                 <a href="#">О НАС</a>
             </li>
             <li>
@@ -29,7 +32,7 @@
                         <a href="#">Торты</a>
                         <ul class="sub-sub-menu-list">
                             <li>
-                                <a href="#">Свадебные торты</a>
+                                <a href="cakes.html">Свадебные торты</a>
                             </li>
                             <li>
                                 <a href="#">Праздничные торты</a>
@@ -65,31 +68,25 @@
 
             <li><a href="#">АКЦИИ</a></li>
             <li><a href="#">КОНДИТЕРСКАЯ</a></li>
-            <li><a href="#">КОНТАКТЫ</a></li>
+            <li><a href="contacts.html">КОНТАКТЫ</a></li>
         </ul>
     </nav>
 </div>
 <div class="main-text">
-    <h1><span style="color: #6D0F16">We cook</span><br><span style="padding-left: 149px">more than</span>
-        <br><span style="padding-left: 374px">just cakes</span></h1>
+    <h1><span style="color: #6D0F16">We cook</span><br><span style="padding-left: 99px">more than</span>
+        <br><span style="padding-left: 250px">just cakes</span></h1>
 </div>
 <div class="stocks">
     <div class="stock-1">
         <h2>15%</h2>
-        <h3>Торты<br> со скидкой 15%</h3>
-        <div class="go-another-page">
-            <p>Идеи тортов</p>
-            <div class="icon-arrow"></div>
-        </div>
+        <h3>Торты<br> со скидкой<br>15%</h3>
+        <button class="white-button">Идеи тортов</button>
     </div>
     <img class="img" src="img/berry.svg" alt="Desert">
     <div class="stock-2">
         <h2>2 + 1 = 2</h2>
         <h3>3 набора капкейков<br>по цене 2</h3>
-        <div class="go-another-page">
-            <p>Выбери свой набор</p>
-            <div class="icon-arrow"></div>
-        </div>
+        <button class="white-button">Выбери свой набор</button>
     </div>
 </div>
         <div class="main-content">
@@ -165,12 +162,65 @@
                     <div id="active"></div>
                 </div>
             </div>
-            <h2>Позвонить вам?</h2>
             <div class="call-you">
+                <h2>Позвонить вам?</h2>
                 <p>Оставьте заявку прямо сейчас, специалист нашей компании свяжется с Вами незамедлительно!</p>
+                <div class="inputs">
+                    <p>Ваше имя:<input id="nameInput" type="text"></p>
+                    <p>Ваше номер телефона:<input id="numberInput" type="text"></p>
+                </div>
+                <button id="applicationButton">Оставить заявку</button>
+                <p>Вы можете также написать свой вопрос на почту</p>
+                <button><a href="mailto:jules.adikhanyan@gmail.com?subject=CAKELAB">Написать на почту</a></button>
             </div>
             <h2>Контакты</h2>
+            <div class="right-contacts">
+                <img src="img/map.svg" alt="map">
+            </div>
+            <div class="left-contacts">
+                <div class="address">
+                    <h4>Адрес</h4>
+                    <p>г. Санкт-Петербург, Невский проспект, д. 88</p>
+                </div>
+                <div class="number">
+                    <h4>Телефон</h4>
+                    <p>8-800-800-00-00</p>
+                </div>
+                <div class="mail">
+                    <h4>Почта</h4>
+                    <p>cakelab@gmail.com</p>
+                </div>
+            </div>
+            <div class="links">
+                <div class="icons">
+                    <a href="#"><img src="img/insta.svg" alt="instagram"></a>
+                    <a href="#"><img src="img/vkontakte.svg" alt="vk"></a>
+                    <a href="#"><img src="img/tg.svg" alt="tg"></a>
+                    <a href="#"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                </div>
+            </div>
         </div>
-<script src="slider.js" async></script>
+<script>
+    let slider = document.getElementById("slider");
+    let active = document.getElementById("active");
+    let line1 = document.getElementById("line-1");
+    let line2 = document.getElementById("line-2");
+    let line3 = document.getElementById("line-3");
+
+    line1.onclick = function () {
+        slider.style.transform = "TranslateX(0%)";
+        active.style.left = "0px";
+    }
+    line2.onclick = function () {
+        slider.style.transform = "TranslateX(-33.33%)";
+        active.style.left = "98px";
+    }
+
+    line3.onclick = function () {
+        slider.style.transform = "TranslateX(-66.66%)";
+        active.style.left = "198px";
+    }
+    </script>
+<script src="script.js" async></script>
 </body>
 </html>
