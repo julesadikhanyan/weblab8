@@ -19,28 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1326f6-9a8c-47ef-9096-e761ecb17c16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cake.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/apple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/back-page-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/candy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cherry.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/choco.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/insta.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/vkontakte.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wedding-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wedding-big.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/whatsapp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="4b1326f6-9a8c-47ef-9096-e761ecb17c16" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/img/back-big.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wedding-big-2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cake.html" beforeDir="false" afterPath="$PROJECT_DIR$/cake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +84,16 @@
       <workItem from="1608556354404" duration="600000" />
       <workItem from="1608572015411" duration="1895000" />
       <workItem from="1608771149356" duration="10145000" />
-      <workItem from="1608805424377" duration="7478000" />
+      <workItem from="1608805424377" duration="12329000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1608813297353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608813297354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,11 +111,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608777216345">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608823677849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608777216345" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608823677849" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1608776642597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -133,13 +132,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="627" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608329818158" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608329836689">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608813303046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608329836689" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608329823089">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608813303046" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608813204240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608329823089" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608813204240" />
   </component>
 </project>

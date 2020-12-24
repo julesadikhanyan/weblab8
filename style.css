@@ -226,6 +226,10 @@ a:hover {
     box-sizing: border-box;
 }
 
+.stock-1 {
+    border-right: 3px solid #0C1212;
+}
+
 .white-button {
     /*border: 1px solid blue;*/
 
@@ -467,7 +471,7 @@ p {
 }
 
 .call-you {
-    background-image: url(img/back.svg);
+    background-image: url(img/back-big.svg);
     background-size: 100%;
 
     width: 100%;
@@ -484,6 +488,8 @@ p {
     justify-content: space-around;
 
     color: white;
+
+    font-family: 'Playfair Display', serif;
 
     position: relative;
 
@@ -714,7 +720,7 @@ button {
 }
 
 .image-description h2 {
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .image-description p {
@@ -777,8 +783,54 @@ button {
 
 }
 
-.window-page-3 {
+.contacts-info {
+    top: 239px;
+
+    display: flex;
+
+    position: relative;
+}
+
+.contacts-info .right-contacts, .contacts-info .left-contacts {
+    background: white;
+
+    color: #0C1212;
+
+    margin-top: 50px;
+
+    border-left: 1px solid #0C1212;
+}
+
+.contacts-info .left-contacts p, .contacts-info .left-contacts h4 {
+    color: #0C1212;
+}
+
+.page-contacts, .page-cake {
     height: 100vh;
+}
+
+.links-contacts, .page-3-footer {
+    height: 10%;
+
+    top: 90%;
+
+    position: absolute;
+}
+
+.page-3 {
+    height: 50vh;
+}
+
+#up-button {
+    background: url("img/up.svg") no-repeat top left;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
 }
 
 
